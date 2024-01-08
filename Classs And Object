@@ -1,0 +1,23 @@
+}
+
+    // Setter method for the age
+    public void setAge(int age) {
+        this.age = age;
+    }
+     }
+
+public class JavaApplication11 {
+
+    public static void main(String[] args) {
+        
+        Person person1 = new Person("John Doe", 25);
+
+        person1.displayInfo();
+
+        person1.setName("Jane Doe");
+
+        person1.setAge(30);
+
+        person1.displayInfo();
+    }
+}
